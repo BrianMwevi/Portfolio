@@ -6421,16 +6421,8 @@ a.text-dark:hover, a.text-dark:focus {
   .about-container {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 30px; }
-  .about-img {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/brianmwevi.jpg);
-    border-radius: 50%;
-    height: 450px;
-    width: 450px;
-    background-position: -30px 450px;
-    background-size: cover;
-    margin: 0 auto; }
   .about-text {
     background: rgba(0, 0, 0, 0.5);
     padding: 30px 5px;
     line-height: 1.8rem;
-    margin: auto auto; }
+    margin: 20px auto; }
