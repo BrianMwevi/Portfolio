@@ -4111,7 +4111,7 @@ button.close {
   perspective: 1000px;
   height: 780px; }
   .carousel-item-0 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 50%), url(../img/carousel/codebus1.jpg);
+    background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/codebus1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; }
@@ -6409,20 +6409,43 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0 5px 0 0; }
 
 .about {
-  background: linear-gradient(to bottom, rgba(203, 70, 82, 0.3), rgba(190, 83, 93, 0.3)), url(../img/about.jpg);
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/back1.jpg);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center center;
   background-attachment: fixed;
-  height: auto;
   background-size: cover;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  position: relative; }
   .about-title {
     padding: 40px 0 40px 0; }
   .about-container {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 30px; }
+    background-color: rgba(190, 83, 93, 0.2);
+    padding: 30px 50px; }
+  .about-media {
+    position: absolute;
+    top: 0;
+    left: 1;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: rgba(203, 70, 82, 0.2); }
+    .about-media:hover {
+      background-color: rgba(0, 0, 0, 0.2); }
+    .about-media--fa {
+      margin-top: 270px;
+      text-align: center;
+      margin-left: 5px;
+      font-size: 30px;
+      color: #fff;
+      background-color: #cb4652;
+      padding: 15px;
+      transform: scale(0.7, 0.7); }
+      .about-media--fa:hover {
+        transform: scale(0.9, 0.9);
+        color: #dc3545;
+        background-color: rgba(190, 83, 93, 0.3); }
   .about-text {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(220, 53, 69, 0.1);
     padding: 30px 5px;
     line-height: 1.8rem;
     margin: 20px auto; }
