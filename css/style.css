@@ -6382,7 +6382,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .gradient {
-  background: linear-gradient(to right, rgba(220, 53, 69, 0.7), rgba(203, 70, 82, 0.7));
+  background: linear-gradient(to right, rgba(220, 53, 69, 0.4), rgba(220, 53, 69, 0.4));
   color: #000; }
   .gradient:hover {
     color: #fff; }
@@ -6414,7 +6414,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   position: relative; }
   .about-title {
     padding: 40px 0 40px 0; }
@@ -6431,19 +6431,6 @@ a.text-dark:hover, a.text-dark:focus {
     background-color: rgba(203, 70, 82, 0.2); }
     .about-media:hover {
       background-color: rgba(0, 0, 0, 0.2); }
-    .about-media--fa {
-      margin-top: 270px;
-      text-align: center;
-      margin-left: 5px;
-      font-size: 30px;
-      color: #fff;
-      background-color: #cb4652;
-      padding: 15px;
-      transform: scale(0.7, 0.7); }
-      .about-media--fa:hover {
-        transform: scale(0.9, 0.9);
-        color: #dc3545;
-        background-color: rgba(190, 83, 93, 0.3); }
   .about-text {
     background: rgba(220, 53, 69, 0.1);
     padding: 30px 5px;
