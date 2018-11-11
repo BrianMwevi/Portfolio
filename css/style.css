@@ -6414,13 +6414,14 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  padding-bottom: 100px;
+  padding: 40px 0 130px 0;
   position: relative; }
   .about-title {
     padding: 40px 0 40px 0; }
   .about-container {
     background-color: rgba(190, 83, 93, 0.2);
-    padding: 30px 50px; }
+    padding: 30px 50px;
+    border-radius: 5px; }
   .about-media {
     position: absolute;
     top: 0;
@@ -6433,6 +6434,38 @@ a.text-dark:hover, a.text-dark:focus {
       background-color: rgba(0, 0, 0, 0.2); }
   .about-text {
     background: rgba(220, 53, 69, 0.1);
+    border-radius: 8px;
     padding: 30px 5px;
     line-height: 1.8rem;
     margin: 20px auto; }
+
+.work {
+  padding: 40px 130px;
+  position: relative; }
+  .work-image--0 {
+    background: url(../img/about1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-right: 100px;
+    height: 300px;
+    width: 300px; }
+  .work-col {
+    position: absolute;
+    border-radius: 20px;
+    border: 10px solid green;
+    height: 300px;
+    width: 300px;
+    background: transparent;
+    transform: rotate(-45deg); }
+  .work-image--1 {
+    background: url(../img/back1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-right: 100px;
+    height: 300px; }
+  .work-image--2 {
+    background: url(../img/tunapandagraduates.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-clip-path: polygon(20% 0, 80% 0, 80% 80%, 20% 80%);
+    height: 300px; }
