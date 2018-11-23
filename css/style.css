@@ -6439,36 +6439,22 @@ a.text-dark:hover, a.text-dark:focus {
     line-height: 1.8rem;
     margin: 20px auto; }
 
-.work {
-  padding: 40px 130px;
-  position: relative; }
-  .work-image--0 {
-    position: absolute;
-    background: url(../img/about1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding-right: 100px;
-    height: 250px;
-    width: 250px;
-    transform: rotate(45deg);
-    z-index: -1; }
-  .work-col {
-    position: absolute;
-    border-radius: 20px;
-    border: 10px solid green;
-    height: 250px;
-    width: 250px;
-    background: tranparent;
-    transform: rotate(-45deg); }
-  .work-image--1 {
-    background: url(../img/back1.jpg);
-    background-position: center center;
-    background-size: cover;
-    padding-right: 100px;
-    height: 250px;
-    z-index: -1; }
-  .work-image--2 {
-    background: url(../img/tunapandagraduates.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 300px; }
+.services {
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.5), rgba(190, 83, 93, 0.5)), url(../img/carousel/codebus1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover; }
+  .services-col {
+    height: 555px;
+    padding: 20px;
+    border-radius: 10px; }
+    .services-col:hover {
+      background-color: rgba(220, 53, 69, 0.6);
+      box-shadow: 5px 5px 5px 5px green; }
+  .services-fa {
+    font-size: 64px;
+    color: #dc3545; }
+  .services-para {
+    background-color: rgba(220, 53, 69, 0.6);
+    padding: 30px; }
