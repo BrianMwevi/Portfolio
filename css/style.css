@@ -3070,12 +3070,10 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
-  .card--left {
-    margin-right: 19px; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -4108,38 +4106,7 @@ button.close {
   align-items: center;
   width: 100%;
   backface-visibility: hidden;
-  perspective: 1000px;
-  height: 780px; }
-  .carousel-item-0 {
-    background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/codebus1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; }
-  .carousel-item-0-yes {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 50%), url(../img/carousel/codebus1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; }
-  .carousel-item-1 {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    background: linear-gradient(to right, rgba(0, 0, 51, 0.4), rgba(29, 200, 205, 0.4) 50%), url(../img/carousel/back1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .carousel-item-2 {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    background: linear-gradient(to right, rgba(0, 0, 51, 0.4), rgba(29, 200, 205, 0.4) 50%), url(../img/carousel/back2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; }
-  .carousel-item-3 {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
-    background: linear-gradient(to right, rgba(0, 0, 51, 0.4), rgba(29, 200, 205, 0.4) 50%), url(../img/carousel/back3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; }
+  perspective: 1000px; }
 
 .carousel-item.active,
 .carousel-item-next,
@@ -4295,14 +4262,13 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 150px;
+  bottom: 20px;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: left;
-  width: 30%; }
+  text-align: center; }
 
 .align-baseline {
   vertical-align: baseline !important; }
@@ -6463,3 +6429,9 @@ a.text-dark:hover, a.text-dark:focus {
       background-color: rgba(220, 53, 69, 0.2);
       padding: 30px;
       border-radius: 5px; }
+
+.work-text {
+  padding: 5rem 3rem; }
+
+.row-margin--ve {
+  margin-top: -2rem; }
