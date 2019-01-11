@@ -6348,10 +6348,37 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .gradient {
-  background: linear-gradient(to right, rgba(220, 53, 69, 0.4), rgba(220, 53, 69, 0.4));
+  background: linear-gradient(to right, rgba(220, 53, 69, 0.7), rgba(220, 53, 69, 0.7));
   color: #000; }
-  .gradient:hover {
-    color: #fff; }
+
+.carousel-item {
+  position: relative;
+  display: none;
+  align-items: center;
+  width: 100%;
+  backface-visibility: hidden;
+  perspective: 1000px; }
+
+.carousel-item-0 {
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/codebus1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh; }
+
+.carousel-item-1 {
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/codebus1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 780px; }
+
+.carousel-item-2 {
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/codebus1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 780px; }
 
 .btn-custom {
   border-radius: 1.5rem;
@@ -6383,7 +6410,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 40px 0 130px 0;
   position: relative; }
   .about-title {
-    padding: 40px 0 40px 0; }
+    padding: 20px 0 30px 0; }
   .about-container {
     background-color: rgba(190, 83, 93, 0.2);
     padding: 30px 50px;
@@ -6406,32 +6433,49 @@ a.text-dark:hover, a.text-dark:focus {
     margin: 20px auto; }
 
 .services {
-  background: radial-gradient(circle, rgba(220, 53, 69, 0.2), rgba(190, 83, 93, 0.2)), url(../img/whatIdo.jpg);
+  background: linear-gradient(to right, rgba(203, 70, 82, 0.3), rgba(203, 70, 82, 0.3)), url(../img/whatIdo.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  height: auto; }
   .services-container {
-    background-color: rgba(203, 70, 82, 0.3);
-    padding: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px 75px;
     border-radius: 5px; }
   .services-col {
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 15px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); }
     .services-col:hover {
-      background-color: rgba(220, 53, 69, 0.2);
-      box-shadow: 0 0 20px rgba(233, 236, 239, 0.2);
+      background-color: rgba(220, 53, 69, 0.1);
+      box-shadow: 0 0 20px rgba(233, 236, 239, 0.3);
       transform: scale(0.9, 0.9); }
     .services-col--fa {
       font-size: 64px;
-      color: #fff; }
+      color: #dc3545; }
     .services-col--para {
       background-color: rgba(220, 53, 69, 0.2);
-      padding: 30px;
+      padding: 15px;
       border-radius: 5px; }
 
 .work-text {
   padding: 5rem 3rem; }
 
 .row-margin--ve {
-  margin-top: -2rem; }
+  margin-top: -1.5rem; }
+
+.testimonial {
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.2), rgba(190, 83, 93, 0.2)), url(../img/whatIdo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 30rem; }
+  .testimonial-carousel {
+    margin-top: 7.25rem;
+    border-radius: 0.4rem; }
+  .testimonial-img {
+    height: 150px;
+    width: 150px; }
