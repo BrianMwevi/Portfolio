@@ -6479,3 +6479,6 @@ a.text-dark:hover, a.text-dark:focus {
   .testimonial-img {
     height: 150px;
     width: 150px; }
+
+.navbar-toggle {
+  display: none; }

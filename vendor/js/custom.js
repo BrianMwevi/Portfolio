@@ -12,3 +12,13 @@ function frameLooper() {
   loopTimer = setTimeout('frameLooper()',30);
 }
 frameLooper();
+
+window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+	        $("#navbar").slideDown(250);
+	    } else {
+	        $("#navbar").slideUp(250)
+	    }
+	}
