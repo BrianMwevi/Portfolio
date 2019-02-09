@@ -6348,7 +6348,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .gradient {
-  background: linear-gradient(to right, rgba(220, 53, 69, 0.7), rgba(220, 53, 69, 0.7));
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3));
   color: #000; }
 
 .carousel-item {
@@ -6460,8 +6460,30 @@ a.text-dark:hover, a.text-dark:focus {
       padding: 15px;
       border-radius: 5px; }
 
-.work-text {
-  padding: 5rem 3rem; }
+.work {
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.8), rgba(190, 83, 93, 0.8), rgba(203, 70, 82, 0.8)), url(../img/work1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden; }
+  .work-text--right {
+    padding: 1rem 3rem;
+    position: absolute;
+    max-width: 25rem;
+    right: 30rem;
+    width: 25rem;
+    top: 6rem;
+    background: rgba(220, 53, 69, 0.8); }
+  .work-text--left {
+    z-index: 1;
+    padding: 1rem 3rem;
+    position: absolute;
+    max-width: 25rem;
+    left: 30rem;
+    width: 25rem;
+    top: 6rem;
+    background: rgba(220, 53, 69, 0.8); }
 
 .row-margin--ve {
   margin-top: -1.5rem; }
@@ -6479,6 +6501,9 @@ a.text-dark:hover, a.text-dark:focus {
   .testimonial-img {
     height: 150px;
     width: 150px; }
+
+.card-margin {
+  margin-bottom: 100px; }
 
 .navbar-toggle {
   display: none; }

@@ -1,5 +1,5 @@
 
-var myString = "I enjoy designing websites that meet my clients need ";
+var myString = "I enjoy designing websites that meet my clients need";
 var myArray = myString.split("");
 var loopTimer;
 function frameLooper() {
