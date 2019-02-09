@@ -6351,6 +6351,13 @@ a.text-dark:hover, a.text-dark:focus {
   background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3));
   color: #000; }
 
+.card-home {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 20%;
+  max-width: 17rem;
+  height: 11rem; }
+
 .carousel-item {
   position: relative;
   display: none;
@@ -6360,7 +6367,7 @@ a.text-dark:hover, a.text-dark:focus {
   perspective: 1000px; }
 
 .carousel-item-0 {
-  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/codebus1.jpg);
+  background: radial-gradient(circle, rgba(220, 53, 69, 0.3), rgba(190, 83, 93, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/home.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -6433,18 +6440,18 @@ a.text-dark:hover, a.text-dark:focus {
     margin: 20px auto; }
 
 .services {
-  background: linear-gradient(to right, rgba(203, 70, 82, 0.3), rgba(203, 70, 82, 0.3)), url(../img/whatIdo.jpg);
+  background: linear-gradient(to right, rgba(203, 70, 82, 0.3), rgba(203, 70, 82, 0.3)), url(../img/carousel/s.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
   height: auto; }
   .services-container {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(190, 83, 93, 0.2);
     padding: 50px 75px;
     border-radius: 5px; }
   .services-col {
-    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(220, 53, 69, 0.1);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); }
@@ -6470,12 +6477,12 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(0, 0, 0, 0.8); }
   .work-text--center {
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(220, 53, 69, 0.5);
     border-radius: 50%;
     padding: 2rem;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: #dc3545; }
+    color: #fff; }
   .work-text--left {
     padding: 0.5rem 2.5rem;
     width: 50%;
