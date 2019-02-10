@@ -6429,12 +6429,16 @@ a.text-dark:hover, a.text-dark:focus {
 .form-control {
   background-color: transparent;
   height: 3rem;
-  border: none; }
+  border: none;
+  color: #fff; }
   .form-control:focus {
     background-color: transparent;
     box-shadow: none;
     color: #fff;
     outline: none; }
+
+input {
+  color: #fff; }
 
 .fa-custom {
   font-size: 1rem;
