@@ -69,7 +69,7 @@
 
 						<li class="nav-item"><a href="blog.html" class="nav-link text-white">Blog</a></li>
 
-						<button class="d-none d-md-block btn btn-danger btn-sm btn-custom ml-2" data-target="#navForm" data-toggle="modal">Contact</button>
+						<button class="nav-link text-white d-none d-md-block btn btn-custom ml-2" data-target="#navForm" data-toggle="modal">Contact</button>
 
 						<li class="d-md-none d-sm-block nav-item" data-target="#navForm" data-toggle="modal">Contact</a></li>
 
@@ -81,14 +81,13 @@
 
 		</nav>
 
-
 		<!-- Nav modal form	 -->
 
-		<div id="navForm" class="modal fade">
+		<div id="navForm" class="modal gradient animate">
 
 			<div class="modal-dialog modal-dialog-centered modal-lg">
 
-				<div class="modal-content">
+				<div class="modal-content gradient">
 
 					<div class="modal-title text-center">
 
@@ -130,7 +129,7 @@
 
 							<div class="form-group">
 
-								<button class="btn btn-danger btn-custom py-2">Send<i class="fa fa-arrow-right pl-3"></i></button>
+								<button class="btn btn-custom py-2">Send<i class="fa fa-arrow-right pl-3"></i></button>
 
 							</div>
 
@@ -340,113 +339,109 @@
 				<div class="col-sm-12 col-md-6 work-image">
 						
 					<!-- Left half project description -->
-					<div class="d-none d-md-block work-text--left gradient">
+					<div id="work1" class="d-none d-md-block work-text--left gradient">
 
 						<h4>Name of the Project</h4>
 
 						<span><small>Created date</small></span>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus, aliquid minima magni impedit, labore!</p>
-						<!-- <button class="btn btn-grou btn-custom btn-danger py-2">View</button> -->
 
 					</div>
 					
-					<!-- Right-project description -->
-					<div class="work-text--right text-center">
-
-						<a href="" class="nav-link"><i class="work-text--center fa fa-link fa-4x"></i></a>
-
-					</div>
-
-					<div class="work-image">
+					<div id="work1" onmouseenter="hovered()" class="work-image">
 
 						<img src="img/food.png" alt="Food project" class="work-image--1 img-fluid">
 
 					</div>
+					
+					<!-- Right-project description -->
+					<div id="textwork1" class="work-text--right text-center" onmouseleave="notHovered()">
 
+						<a href="" class="nav-link"><i id="linkwork1" class="work-text--center fa fa-4x">&#xf0c1;</i></a>
+
+					</div>
 
 
 				</div>
 				
 				<div class="col-sm-12 col-md-6 work-image">
 					
-					<div class="d-none d-md-block work-text--left gradient">
+					<div id="work2" class="d-none d-md-block work-text--left gradient">
 
 						<h4>Name of the Project</h4>
 
 						<span><small>Created date</small></span>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus, aliquid minima magni impedit, labore!</p>
-						<!-- <button class="btn btn-grou btn-custom btn-danger py-2">View</button> -->
 
 					</div>
 					
-					<!-- Right-project description -->
-					<div class="work-text--right text-center">
-
-						<a href="" class="nav-link"><i class="work-text--center fa fa-link fa-4x"></i></a>
-
-					</div>
-
-					<div class="work-image">
+					<div id="work2" onmouseenter="hovered()" class="work-image">
 
 						<img src="img/cssonly1.png" alt="Food project" class="work-image--1 img-fluid">
 
 					</div>
 
+					<!-- Right-project description -->
+					<div id="textwork2" class="work-text--right text-center" onmouseleave="notHovered()">
+
+						<a href="" class="nav-link"><i id="linkwork2" class="work-text--center fa fa-4x">&#xf0c1;</i></a>
+
+					</div>
+
+					
 				</div>
 
 				<div class="col-sm-12 col-md-6 work-image">
 					
-					<div class="d-none d-md-block work-text--left gradient">
+					<div id="work3" class="d-none d-md-block work-text--left gradient">
 
 						<h4>Name of the Project</h4>
 
 						<span><small>Created date</small></span>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus, aliquid minima magni impedit, labore!</p>
-						<!-- <button class="btn btn-grou btn-custom btn-danger py-2">View</button> -->
 
 					</div>
 					
-					<!-- Right-project description -->
-					<div class="work-text--right text-center">
-
-						<a href="" class="nav-link"><i class="work-text--center fa fa-link fa-4x"></i></a>
-
-					</div>
-
-					<div class="work-image">
+					<div id="work3" onmouseenter="hovered()" class="work-image">
 
 						<img src="img/frontback.png" alt="Food project" class="work-image--1 img-fluid">
 
 					</div>
 
+					<!-- Right-project description -->
+					<div id="textwork3" class="work-text--right text-center" onmouseleave="notHovered()">
+
+						<a href="" class="nav-link"><i id="linkwork3" class="work-text--center fa fa-4x">&#xf0c1;</i></a>
+
+					</div>
+
 				</div>
 
 				<div class="col-sm-12 col-md-6 work-image">
 					
-					<div class="d-none d-md-block work-text--left gradient">
+					<div id="work4" class="d-none d-md-block work-text--left gradient">
 
 						<h4>Name of the Project</h4>
 
 						<span><small>Created date</small></span>
 
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus, aliquid minima magni impedit, labore!</p>
-						<!-- <button class="btn btn-grou btn-custom btn-danger py-2">View</button> -->
 
 					</div>
 					
-					<!-- Right-project description -->
-					<div class="work-text--right text-center">
+					<div id="work4" onmouseenter="hovered()" class="work-image">
 
-						<a href="" class="nav-link"><i class="work-text--center fa fa-link fa-4x"></i></a>
+						<img src="img/animate1.png" alt="Food project" class="work-image--1 img-fluid">
 
 					</div>
 
-					<div class="work-image">
+					<!-- Right-project description -->
+					<div id="textwork4" class="work-text--right text-center" onmouseleave="notHovered()">
 
-						<img src="img/animate1.png" alt="Food project" class="work-image--1 img-fluid">
+						<a href="" class="nav-link"><i id="linkwork4" class="work-text--center fa fa-4x">&#xf0c1;</i></a>
 
 					</div>
 
@@ -798,9 +793,6 @@
 		</a>
 
 	</footer>
-	<script>
-		
-	</script>
 
 	<script src="vendor/js/jquery.min.js"></script>
 
@@ -810,10 +802,6 @@
 
 	<script src="vendor/js/custom.js"></script>
 
-
-
 </body>
-
-
 
 </html>
